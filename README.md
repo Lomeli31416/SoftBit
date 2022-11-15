@@ -1,6 +1,6 @@
 # SoftBit
 
-WIKI DE ERRORES
+WIKI DE ERRORES:
 
 ## Instrucciones
 
