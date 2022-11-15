@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftBit</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="contenedor contenido-header">
+
+            <div class="barra">
+
+                <a href="#">
+                    <img src="BitSoft.png" alt="Logo de SoftBit">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="contactanos.html">Contactanos</a>
+                    <a href="Iniciarsesion.html">Iniciar Sesión</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+        <br>
+        <h1><strong>Crear Cuenta</strong></h1>
+
+        <div class="centrar">
+            <form method="POST" action="registrar_be.php">
+
+                <fieldset>
+                    <legend><Strong>Datos personales</Strong></legend>
+                    Nombre<input type="text" name="name" placeholder="Nombres(s)">
+                    <br>
+                    Apellidos<input type="text" name="apellido" placeholder="Apellidos">
+                    <br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend><Strong>Datos de contacto</Strong></legend>
+                    Correo <input type="email" name="email" placeholder="E-mail" required>
+                    <br>
+                    Telefono <input type="tel" name="telefono" placeholder="Número">
+                    <br>
+                </fieldset>
+
+                <br>
+
+
+                <fieldset>
+                    <legend><strong>Datos de conexion</strong></legend>
+                    Usuario <input type="text" name="user" placeholder="Usuario o E-mail">
+                    <br>
+                    Contraseña <input type="password" name="password" maxlength="8" placeholder="Contraseña">
+                </fieldset>
+
+
+                <p class="ya-tienes-cuenta">
+                    ¿Ya eres miembro?<a href="Iniciarsesion.html">  Inicia sesion aqui</a>
+                </p>
+                <div class="centrado">
+                    <input type="submit" value="Registrarse" id="boton-crear" name="register">
+                </div>
+            </form>
+
+
+        </div>
+
+        <p style="font-size: 15px; padding:50px;">Al entrar y hacer uso de este sitio web,
+            aceptas nuestros Términos de Uso y Política de Privacidad Requisitos de Registro de
+            Declaración de Cumplimiento 18 U.S.C 2257</p>
+
+        </div>
+    
+    </main>
+
+
+    <footer>
+        <img src="BitSoft.png" alt="Logo SoftBit">
+        <p>
+            Consolidar una Universidad Tecnológica reconocida por la calidad de los estudios superiores que imparte en base a la certificación de sus programas educativos, al desarrollo de los cuerpos académicos y a una estrecha vinculación con los sectores productivos y educacionales.
+        </p>
+
+        <img src="map.png" alt="LOGO MAPA">
+        <p>Dirección: Rio San Francisco #210 66050 Cd Gral Escobedo, N.L.</p>
+    </footer>
+
+</body>
+
+</html>
